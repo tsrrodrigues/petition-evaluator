@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Data files (sensitive)
+data/petitions_metadata.json
+petitions/*.docx
+petitions/*.txt
+
+# API keys and credentials
+.env
+*.key
+api_key
+
+# Results (can be regenerated)
+results/*.json
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
